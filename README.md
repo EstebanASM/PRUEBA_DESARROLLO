@@ -1,16 +1,18 @@
-# PRUEBA_DESARROLLO
+## INSTALACIÓN
+
 1.- Clona el repositorio.
 
-2.- Acceda al directorio y ábrelo con VSCode.
+2.- Accede al directorio y ábrelo con VSCode.
 
-3.- Crea un Entorno Virtual: python -m venv env
-
+3.- Crea un Entorno Virtual:
+	python -m venv env
+ 
 4.- Activa el entorno virtual.
 
-5.- Instala las dependencias requeridas: pip install -r requisitos.txt
+5.- Instala las dependencias requeridas:
+	pip install -r requirements.txt
+ 
+7.- Crea una Clave de API de OpenAI y agrégala a tu archivo .txt y cambia su extensión a .env
 
-6.-Instala pip install lxml y pip install beautifulsoup4    
-
-7.- Genera una Clave de OpenAI y ponle en el archivo .txt y renombralo por .env
-
-8.- Ejecuta la aplicación: streamlit run app.py --server.port 8080
+8.- Ejecuta la aplicación:
+	streamlit run app.py
